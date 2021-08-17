@@ -1,6 +1,6 @@
 <?php
 
-namespace JadeKun\Sku;
+namespace Lyne007\LaravelAdminSku;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form;
