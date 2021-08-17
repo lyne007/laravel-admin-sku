@@ -9,11 +9,11 @@ class SkuField extends Field
     protected $view = 'sku::sku_field';
 
     protected static $js = [
-        'vendor/lyne007/sku/sku.js'
+        'vendor/lyne007/laravel-admin-sku/sku.js'
     ];
 
     protected static $css = [
-        'vendor/lyne007/sku/sku.css'
+        'vendor/lyne007/laravel-admin-sku/sku.css'
     ];
 
     public function render()
