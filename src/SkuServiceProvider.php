@@ -23,7 +23,7 @@ class SkuServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/lyne007/laravel-admin-sku')],
+                [$assets => public_path('vendor/lyne007/sku')],
                 'sku'
             );
         }
