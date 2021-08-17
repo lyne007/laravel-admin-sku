@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyne007\LaravelAdminSku;
+namespace Lyne007\Sku;
 
 use Encore\Admin\Form\Field;
 
