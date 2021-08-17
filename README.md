@@ -37,7 +37,11 @@ if($request->hasFile('file')) {
 
 ### 使用方法
 ```php
+// 新增
 $form->sku('sku','商品SKU');
+
+// 编辑
+$form->sku('sku','商品SKU')->default($json);  // $json为下面的原始数据json
 ```
 
 ### 其他说明
