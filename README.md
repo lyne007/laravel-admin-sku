@@ -2,6 +2,7 @@ laravel-admin extension 商品SKU
 ======
 > 已修复编辑时price，stock为0情况
 > 已修复编辑时增加id
+
 ![预览](https://github.com/lyne007/laravel-admin-sku/blob/master/1.png?raw=true)
 
 ## 安装
