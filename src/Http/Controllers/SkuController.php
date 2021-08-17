@@ -1,6 +1,6 @@
 <?php
 
-namespace Lyne007\Sku\Http\Controllers;
+namespace Lyne007\LaravelAdminSku\Http\Controllers;
 
 use Encore\Admin\Layout\Content;
 use Illuminate\Routing\Controller;
