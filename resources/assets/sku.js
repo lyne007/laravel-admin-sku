@@ -181,7 +181,11 @@
 
         if (JSON.stringify(_this.attrs) !== JSON.stringify(attr)) {
             _this.attrs = attr;
-            _this.SKUForm()
+            // 解决编辑是price，stock为0情况
+            let old_val = _this.warp.find('.Js_sku_input').val();
+            old_val = JSON.parse(old_val);
+            _this.SKUForm(old_val.sku)
+            // _this.SKUForm()
         }
     };
 
@@ -226,6 +230,7 @@
                     tbody_html += '<td data-field="' + attr_name + '">' + attr_val + '</td>';
                 });
                 tbody_html += '<td data-field="pic"><input value="" type="hidden" class="form-control"><span class="Js_sku_upload">+</span><span class="Js_sku_del_pic">清空</span></td>';
+                tbody_html += '<td data-field="id" style="display: none;"><input value="" type="hidden"></td>';
                 tbody_html += '<td data-field="price"><input value="' + _this.commonPrice + '" type="text" class="form-control"></td>';
                 tbody_html += '<td data-field="stock"><input value="' + _this.commonStock + '" type="text" class="form-control"></td>';
                 tbody_html += '</tr>'

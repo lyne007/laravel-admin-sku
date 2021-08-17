@@ -1,17 +1,19 @@
 laravel-admin extension 商品SKU
 ======
-![预览](https://github.com/jade-kun/sku/blob/master/1.png?raw=true)
+> 已修复编辑时price，stock为0情况
+> 已修复编辑时增加id
+![预览](https://github.com/lyne007/laravel-admin-sku/blob/master/1.png?raw=true)
 
 ## 安装
 ```bash
-composer require jadekun/sku
-php artisan vendor:publish --provider="JadeKun\Sku\SkuServiceProvider"
+composer require lyne007/laravel-admin-sku
+php artisan vendor:publish --provider="Lyne007\LaravelAdminSku\SkuServiceProvider"
 ```
 
 ## 配置
 
 ### 配置sku上传地址
-文件路径【public/vendor/jadekun/sku/sku.js】
+文件路径【public/vendor/lyne007/sku/sku.js】
 ```javascript
 const UploadHost = '/admin/upload_file';
 ```

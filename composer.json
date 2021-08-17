@@ -1,14 +1,14 @@
 {
-    "name": "jadekun/sku",
+    "name": "lyne007/laravel-admin-sku",
     "description": "",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jade-kun/sku",
+    "homepage": "https://github.com/lyne007/laravel-admin-sku",
     "license": "MIT",
     "authors": [
         {
-            "name": "jade",
-            "email": "jade@likunit.com"
+            "name": "lyne007",
+            "email": "lyne007@163.com"
         }
     ],
     "require": {
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "JadeKun\\Sku\\": "src/"
+            "Lyne007\\LaravelAdminSku\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JadeKun\\Sku\\SkuServiceProvider"
+                "Lyne007\\LaravelAdminSku\\SkuServiceProvider"
             ]
         }
     }
