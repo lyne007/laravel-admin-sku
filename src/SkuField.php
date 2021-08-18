@@ -20,7 +20,7 @@ class SkuField extends Field
     {
 
         $this->script = <<< EOF
-window.DemoSku = new JadeKunSKU('{$this->getElementClassSelector()}')
+window.DemoSku = new JadeKunSKU('{$this->getElementClassSelector()}');
 EOF;
         return parent::render();
     }
